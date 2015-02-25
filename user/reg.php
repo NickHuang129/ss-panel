@@ -28,7 +28,7 @@ include_once '../lib/config.php';
     <form name="reg" role="form" action="doreg.php" method="post" onsubmit="return regcheck()" >
         <div class="body bg-gray">
             <div class="form-group">
-                <input type="text" name="username" class="form-control" value="<?php echo $_COOKIE['reg_name'];?>"  placeholder="用户名" >
+                <input type="text" name="username" class="form-control" value="<?php if(isset($_COOKIE['reg_name'])) {echo $_COOKIE['reg_name'];}?>"  placeholder="用户名" >
             </div>
 
             <div class="form-group">
@@ -41,12 +41,12 @@ include_once '../lib/config.php';
 
 
             <div class="form-group">
-                <input type="text" name="email" class="form-control" id="Email" value="<?php echo $_COOKIE['reg_email'];?>" placeholder="邮箱" >
+                <input type="text" name="email" class="form-control" id="Email" value="<?php if (isset($_COOKIE['reg_email'])){ echo $_COOKIE['reg_email'];}?>" placeholder="邮箱" >
             </div>
 
             <?php if($invite_only){ ?>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="code" value="<?php echo $_COOKIE['reg_code'];?>"  placeholder="邀请码" >
+                    <input type="text" class="form-control" name="code" value="<?php if (isset($_COOKIE['reg_code'])){echo $_COOKIE['reg_code'];}?>"  placeholder="邀请码" >
                 </div>
             <?php } ?>
         </div>

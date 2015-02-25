@@ -5,7 +5,7 @@
 <!-- Ionicons -->
 <link href="../css/ionicons.min.css" rel="stylesheet" type="text/css" />
 <!-- Morris chart -->
-<link href="../css/morris/morris.css" rel="stylesheet" type="text/css" />
+<!-- <link href="../css/morris.css" rel="stylesheet" type="text/css" /> -->
 <!-- jvectormap -->
 <link href="css/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
 <!-- Date Picker -->

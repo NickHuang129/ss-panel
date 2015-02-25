@@ -1,1 +1,5 @@
 lib/config.php
+*.buildpath
+*.project
+*.prefs
+user/tmp/*.*

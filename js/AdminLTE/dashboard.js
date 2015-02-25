@@ -25,11 +25,13 @@ $(function() {
         zIndex: 999999
     }).disableSelection();
     ;
+    
+    return;
 
     //bootstrap WYSIHTML5 - text editor
-    $(".textarea").wysihtml5();
+    //$(".textarea").wysihtml5();
 
-    $('.daterange').daterangepicker(
+    /*$('.daterange').daterangepicker(
             {
                 ranges: {
                     'Today': [moment(), moment()],
@@ -44,10 +46,10 @@ $(function() {
             },
     function(start, end) {
         alert("You chose: " + start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-    });
+    });*/
 
     /* jQueryKnob */
-    $(".knob").knob();
+    //$(".knob").knob();
 
     //jvectormap data
     var visitorsData = {

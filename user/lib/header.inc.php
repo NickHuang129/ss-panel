@@ -4,12 +4,12 @@ require_once 'user_check.php';
 ?>
 <meta charset="UTF-8">
 <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="http://apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <!-- Ionicons -->
 <link href="../css/ionicons.min.css" rel="stylesheet" type="text/css" />
 <!-- Morris chart -->
-<link href="../css/morris/morris.css" rel="stylesheet" type="text/css" />
+<!-- <link href="../css/morris/morris.css" rel="stylesheet" type="text/css" /> -->
 
 <!-- Theme style -->
 <link href="../css/AdminLTE.css" rel="stylesheet" type="text/css" />
