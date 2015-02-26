@@ -50,11 +50,8 @@ $uid  = $_GET['uid'];
 
 
 </div>
-
-<!-- jQuery 2.0.2 -->
-<script src="../js/jquery-2.0.3.min.js"></script>
-<!-- Bootstrap -->
-<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js" type="text/javascript"></script>
 
 <script>
     $(document).ready(function(){

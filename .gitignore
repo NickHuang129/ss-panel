@@ -3,3 +3,7 @@ lib/config.php
 *.project
 *.prefs
 user/tmp/*.*
+*.jsdtscope
+*.container
+*.name
+test.php

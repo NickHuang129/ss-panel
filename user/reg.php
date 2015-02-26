@@ -63,20 +63,16 @@ if(is_user_login()){
     </form>
 
     <div class="margin text-center">
-        <span>下面的按钮暂时是不可用的</span>
+        <!-- <span>下面的按钮暂时是不可用的</span>
         <br/>
         <button class="btn bg-light-blue btn-circle"><i class="fa fa-facebook"></i></button>
         <button class="btn bg-aqua btn-circle"><i class="fa fa-twitter"></i></button>
-        <button class="btn bg-red btn-circle"><i class="fa fa-google-plus"></i></button>
-
+        <button class="btn bg-red btn-circle"><i class="fa fa-google-plus"></i></button> -->
     </div>
 </div>
 
-
-<!-- jQuery 2.0.2 -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js" type="text/javascript"></script>
 
 <script LANGUAGE="javascript">
 
