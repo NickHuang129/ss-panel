@@ -9,7 +9,7 @@
                     <img src="<?php echo get_gravatar($admin_email);?>" class="img-circle" alt="User Image" />
                 </div>
                 <div class="pull-left info">
-                    <p>欢迎, <?php echo $_COOKIE[admin_name];?></p>
+                    <p>欢迎, <?php if (isset($_COOKIE['admin_name'])){echo $_COOKIE['admin_name'];}?></p>
 
                     <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
                 </div>

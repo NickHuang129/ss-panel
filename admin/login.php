@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="bg-black">
+<?php include_once '../lib/config.php';?>
 <head>
     <meta charset="utf-8">
     <title><?php echo $site_name; ?></title>
