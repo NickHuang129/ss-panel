@@ -19,7 +19,7 @@ $ssqr = "ss://".base64_encode($ssurl);
 <p><?php echo $ssqr;?></p>
 <div id="qrcode">
 </div>
-<script src="../js/jquery-2.1.1.js" type="text/javascript"></script>
+<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 <script src="../js/jquery.qrcode.min.js" type="text/javascript"></script>
 <script>
 	jQuery(function(){
