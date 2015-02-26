@@ -3,7 +3,7 @@ require_once '../lib/config.php';
 require_once '../lib/func/comm.func.php';
 require_once '../lib/func/user.func.php'; 
 //检测是否登录，若没登录则转向登录界面
-if(!isset($_COOKIE['user_name'])||!isset($_COOKIE['user_uid'])||!isset($_COOKIE['user_pwd'])){
+/*if(!isset($_COOKIE['user_name'])||!isset($_COOKIE['user_uid'])||!isset($_COOKIE['user_pwd'])){
     header("Location:login.php");
     exit();
 }else{
@@ -20,4 +20,11 @@ if(!isset($_COOKIE['user_name'])||!isset($_COOKIE['user_uid'])||!isset($_COOKIE[
         header("Location:login.php");
     }
 }
-$oo = new Ss\User\Ss($uid);
+$oo = new Ss\User\Ss($uid);*/
+$uid = $_COOKIE['user_uid'];
+$user_name = $_COOKIE['user_name'];
+$user_email = get_user_email($uid);
+$oo = is_user_login();
+if(!$oo){
+    header("Location:login.php");
+}

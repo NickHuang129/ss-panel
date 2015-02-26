@@ -6,6 +6,9 @@ $id = $_GET['id'];
 $sql ="SELECT * FROM `ss_node` WHERE `id` = '$id'  ";
 $query =  $dbc->query($sql);
 $rs = $query->fetch_array();
+if (!$rs){
+    die("<meta charset='UTF-8'>不存在这个结点");
+}
 $server =  $rs['node_server'];
 $method = $rs['node_method'];
 $pass = $oo->get_pass();

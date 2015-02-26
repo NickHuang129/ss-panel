@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <?php
 //引入配置文件
 require_once 'user_check.php';
@@ -6,6 +7,9 @@ $id = $_GET['id'];
 $sql ="SELECT * FROM `ss_node` WHERE `id` = '$id'  ";
 $query =  $dbc->query($sql);
 $rs = $query->fetch_array();
+if (!$rs){
+    die("不存在这个结点");
+}
 $server =  $rs['node_server'];
 $method = $rs['node_method'];
 $pass = $oo->get_pass();

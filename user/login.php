@@ -1,5 +1,9 @@
 <?php
 include_once '../lib/config.php';
+require_once '../lib/func/user.func.php';
+if(is_user_login()){
+    header("Location:index.php");
+}
 ?>
 <!DOCTYPE html>
 <html class="bg-black">

@@ -153,3 +153,23 @@ function co_pw($pw){
     $x = substr($x,6,12);
     return $x;
 }
+
+function is_user_login(){
+    if(!isset($_COOKIE['user_name'])||!isset($_COOKIE['user_uid'])||!isset($_COOKIE['user_pwd'])){
+        return false;
+    }else{
+        $uid = $_COOKIE['user_uid'];
+        $user_name = $_COOKIE['user_name'];
+        $user_pwd  = $_COOKIE['user_pwd'];
+        $user_email = get_user_email($uid);
+        
+        //验证cookie
+        $pw = get_user_pass($uid);
+        $pw = co_pw($pw);
+        if($pw != $user_pwd){
+            return false;
+        }
+        $oo = new Ss\User\Ss($uid);
+        return $oo;
+    }
+}
