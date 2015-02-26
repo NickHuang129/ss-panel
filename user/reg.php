@@ -9,7 +9,7 @@ if(is_user_login()){
 <html class="bg-black">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $site_name;?>注册</title>
+    <title><?php echo $site_name;?>|注册</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- bootstrap 3.0.2 -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -28,7 +28,7 @@ if(is_user_login()){
 <body class="bg-black">
 
 <div class="form-box" id="login-box">
-    <div class="header"><?php echo $site_name;?>注册</div>
+    <div class="header">注册</div>
     <form name="reg" role="form" action="doreg.php" method="post" onsubmit="return regcheck()" >
         <div class="body bg-gray">
             <div class="form-group">
