@@ -159,10 +159,7 @@ function is_user_login(){
         return false;
     }else{
         $uid = $_COOKIE['user_uid'];
-        $user_name = $_COOKIE['user_name'];
         $user_pwd  = $_COOKIE['user_pwd'];
-        $user_email = get_user_email($uid);
-        
         //验证cookie
         $pw = get_user_pass($uid);
         $pw = co_pw($pw);
