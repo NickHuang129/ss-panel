@@ -52,38 +52,38 @@ if(!empty($_POST)){
 
                             <div class="form-group">
                                 <label for="cate_title">节点名字</label>
-                                <input  class="form-control" name="node_name" value="<?php echo $rs['node_name'];?>" >
+                                <input  class="form-control" name="node_name">
                             </div>
 
                             <div class="form-group">
                                 <label for="cate_title">节点地址</label>
-                                <input  class="form-control" name="node_server" value="<?php echo $rs['node_server'];?>" >
+                                <input  class="form-control" name="node_server">
                             </div>
 
                             <div class="form-group"> 
                                 <label for="cate_method">加密方式</label>
-                                <input  class="form-control" name="node_method" value="<?php echo $rs['node_method'];?>" >
+                                <input  class="form-control" name="node_method">
                             </div>
 
 
                             <div class="form-group">
                                 <label for="cate_title">节点描述</label>
-                                <input  class="form-control" name="node_info" value="<?php echo $rs['node_info'];?>" >
+                                <input  class="form-control" name="node_info">
                             </div>
 
                             <div class="form-group">
                                 <label for="cate_order">分类(0或者1)</label>
-                                <input   class="form-control" name="node_type"  value="<?php echo $rs['node_type'];?>" >
+                                <input   class="form-control" name="node_type">
                             </div>
 
                             <div class="form-group">
                                 <label for="cate_order">状态</label>
-                                <input   class="form-control" name="node_status"  value="<?php echo $rs['node_status'];?>" >
+                                <input   class="form-control" name="node_status" >
                             </div>
 
                             <div class="form-group">
                                 <label for="cate_order">排序</label>
-                                <input   class="form-control" name="node_order"  value="<?php echo $rs['node_order'];?>" >
+                                <input   class="form-control" name="node_order">
                             </div>
                         </div><!-- /.box-body -->
 
