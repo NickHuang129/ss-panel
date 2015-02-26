@@ -1,4 +1,5 @@
 <meta charset="UTF-8">
+<body style="text-align: center;padding-top: 61px;">
 <?php
 //引入配置文件
 require_once 'user_check.php';
@@ -30,6 +31,7 @@ $ssqr = "ss://".base64_encode($ssurl);
 		jQuery('#qrcode').qrcode("<?php echo $ssqr;?>");
 	})
 </script>
+</body>
 
 
 
