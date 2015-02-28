@@ -35,7 +35,7 @@ $uinvite = new user_invite($uid);
                         <h3 class="box-title">邀请</h3>
                     </div><!-- /.box-header -->
                         <div class="box-body">
-                            <p>当前您可以生成<code><?php   echo $uinvite->get_code_num();  ?></code>个邀请码。  </p>
+                            <p>当前您可以生成<code><?php   echo $uinvite->get_code_num();  ?></code>个邀请码。  邀请好友注册成功并使用“科学上网”后，你将获取更多流量。</p>
                             <?php  if($uinvite->get_code_num()!=0){ ?>
                                 <a href="doinvite.php" class="btn btn-sm btn-info">生成我的邀请码</a>
                             <?php } ?>
