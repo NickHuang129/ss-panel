@@ -3535,3 +3535,10 @@ fieldset[disabled] .btn-vk.active {
   color: #587ea3;
   background-color: #ffffff;
 }
+
+i.fa.active{
+	color: #FF8500;
+}
+i.fa.active:hover{
+	color: #FF9B2D;
+}

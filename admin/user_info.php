@@ -1,7 +1,5 @@
 <?php
-require_once '../lib/config.php';
-require_once '../lib/func/comm.func.php';
-require_once '../lib/func/user.func.php';
+require_once 'user_check.php';
 require_once '../lib/class/ss.class.php';
 $uid = $_GET['uid'];
 
@@ -41,8 +39,8 @@ $unix_time = $oo->get_last_unix_time();
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            用户中心
-            <small>User Panel</small>
+            用户详细信息
+            <small>User Info Detial</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i>ShadowX</a></li>
@@ -71,22 +69,6 @@ $unix_time = $oo->get_last_unix_time();
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (left) -->
-
-                <div class="col-md-6">
-                    <div class="box box-solid">
-                        <div class="box-header">
-                            <h3 class="box-title">签到获取流量</h3>
-                        </div><!-- /.box-header -->
-                        <div class="box-body">
-                            <p> 剩余流量小于2G 且24小时内未签到才可以签到。 </p>
-                            <?php  if($oo->is_able_to_check_in())  { ?>
-                            <p><a class="btn btn-success btn-flat" href="docheckin.php">签到</a> </p>
-                            <?php  }else{ ?>
-                            <p><a class="btn btn-success btn-flat disabled" href="#">未达到签到要求</a> </p>
-                            <?php  } ?>
-                        </div><!-- /.box-body -->
-                    </div><!-- /.box -->
-                </div><!-- /.col (right) -->
 
                 <div class="col-md-6">
                     <div class="box box-solid">
