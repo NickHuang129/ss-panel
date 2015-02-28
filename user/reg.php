@@ -51,7 +51,7 @@ if(is_user_login()){
             <?php if($invite_only){ ?>
                 <div class="form-group">
                     <input type="text" class="form-control" name="code" value="<?php if (isset($_COOKIE['reg_code'])){echo $_COOKIE['reg_code'];}?>"  placeholder="邀请码" >
-                                木有邀请码？<a href="#">点我</a>获取
+                                木有邀请码？<a href="/code.php" target="_blank">点我</a>获取
                 </div>
             <?php } ?>
             <div class="form-group">
