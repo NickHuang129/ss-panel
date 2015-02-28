@@ -8,7 +8,7 @@ include_once 'header.php';
 
     <div class="jumbotron">
         <h2><?php echo $site_name; ?></h2>
-        <p class="lead"> 免费！每个月10G流量，日本、美国等节点。</p>
+        <p class="lead"> 免费！每个月<?php echo $togb_gb_size?>G流量，日本、美国等节点。</p>
         <p><a class="btn btn-lg btn-success" href="user/reg.php" role="button">立即注册</a></p>
     </div>
 
@@ -31,7 +31,5 @@ include_once 'header.php';
             include_once 'footer.php';
             include_once 'ana.php';?>
 </div> <!-- /container -->
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>

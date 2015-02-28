@@ -53,6 +53,9 @@ if(is_user_login()){
                     <input type="text" class="form-control" name="code" value="<?php if (isset($_COOKIE['reg_code'])){echo $_COOKIE['reg_code'];}?>"  placeholder="邀请码" >
                 </div>
             <?php } ?>
+            <div class="form-group">
+                <input type="checkbox" name="contract"> 我接受 <a href="/contract.php" target="_blank">《服务条款》</a>
+            </div>
         </div>
         <div class="footer">
 
@@ -148,6 +151,12 @@ if(is_user_login()){
             document.reg.username.focus();
             return false;
         }
+
+        if(!document.reg.contract.checked){
+        	alert("请勾选接受服务条款！"); 
+        	return false;
+        }
+        
     }
 
 </script>
