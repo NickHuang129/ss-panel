@@ -41,6 +41,11 @@
                     </a>
                 </li>
  
+                <li  >
+                    <a href="site.php">
+                        <i class="fa fa-align-left"></i> <span>网站信息</span>
+                    </a>
+                </li>
 
                 <li  >
                     <a href="sys.php">

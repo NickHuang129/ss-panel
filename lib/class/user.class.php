@@ -35,6 +35,12 @@
          ]);
          return 1;
      }
+     
+     function enable(){
+         $sql = " UPDATE `user` SET enable=(enable+1)%2 WHERE `uid` = '$this->uid'";
+         $query = $this->dbc->query($sql);
+         return $query;
+     }
 
      //获取 临时 temp $pass
      function get_temp_pass(){

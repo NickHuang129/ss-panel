@@ -8,20 +8,30 @@ class Ss {
     //
     public  $uid;
     public $db;
+    
+    public $data_array;
 
     function  __construct($uid=0){
         global $db;
         $this->uid = $uid;
         $this->db  = $db;
-    }
-
-    //user info array
-    function get_user_info_array(){
         $datas = $this->db->select("user","*",[
             "uid" => $this->uid,
             "LIMIT" => "1"
         ]);
-        return $datas['0'];
+        $this->data_array = $datas['0'];
+    }
+
+    //user info array
+    function get_user_info_array(){
+        /* if (!isset($data_array)){
+            $datas = $this->db->select("user","*",[
+                "uid" => $this->uid,
+                "LIMIT" => "1"
+            ]);
+            $this->data_array = $datas['0'];
+        } */
+        return $this->data_array;
     }
 
     //返回端口号

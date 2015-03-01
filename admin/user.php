@@ -82,7 +82,11 @@ function echo_order_header_link($order__,$order,$desc){
                                         <td><?php echo date('Y-m-d H:i:s',$rs['t']); ?></td>
                                         <td>
                                             <a class="btn btn-info btn-sm" href="user_edit.php?uid=<?php echo $rs['uid']; ?>">编辑</a>
-                                            <a class="btn btn-warning btn-sm" onclick="return confirm('你确定要禁用 <?php echo $rs['user_name']; ?> 吗？');" href="#<?php echo $rs['uid']; ?>">禁用</a>
+                                            <?php if ($rs['enable']==0):?>
+                                            <a class="btn btn-info btn-sm" onclick="return confirm('你确定要启用 <?php echo $rs['user_name']; ?> 吗？');" href="user_enable.php?uid=<?php echo $rs['uid']; ?>">启用</a>
+                                            <?php else :?>
+                                            <a class="btn btn-warning btn-sm" onclick="return confirm('你确定要禁用 <?php echo $rs['user_name']; ?> 吗？');" href="user_enable.php?uid=<?php echo $rs['uid']; ?>">禁用</a>
+                                            <?php endif;?>
                                             <a class="btn btn-danger btn-sm" onclick="return confirm('你确定要删除 <?php echo $rs['user_name']; ?> 吗？');" href="user_del.php?uid=<?php echo $rs['uid']; ?>">删除</a>
                                         </td>
                                     </tr>
