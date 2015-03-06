@@ -24,6 +24,8 @@ include_once 'header.php';
 	       <li> 1860****258 **楠 1.26元 送每月1.5G额外流量 </li>
 	       <li> wos**kk@Gmail.com **凯 15元 送每月15G额外流量 </li>
 	       <li> 1501****799 **校 50元 送每月60G额外流量 </li>
+	       <li> samsung**@gmail.com **华 1元 送每月1G额外流量 </li>
+	       <li> nyv***ii@gmail.com ** 5元 送每月6G额外流量 </li>
 	    </ul>
 	    <p>
 	       感谢以上用户对本站的支持。

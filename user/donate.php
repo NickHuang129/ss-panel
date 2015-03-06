@@ -32,10 +32,10 @@
 <div style="text-align: center">
 <form accept-charset="GBK" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank">
 <input name="optEmail" type="hidden" value="840652591@qq.com">
-<input name="title" type="hidden" value="ss捐款<?php if (isset($user_email))echo '-'.$user_email ?>">
+<input name="title" type="hidden" value="ss<?php if (isset($user_email))echo '-'.$user_email ?>">
 <input name="pay" src="http://cdn.awolau.com/alipay-donate.png" type="image" value="转账"></form>
 </div>
 </p>
 <p>
-支付宝账号为 840652591@qq.com  实名：王志超  记得备注为 ss捐助 <a href="/donate_list.php#donate-list-title">捐助列表</a>
+支付宝账号为 840652591@qq.com  实名：王志超  记得备注为 ss <a href="/donate_list.php#donate-list-title">捐助列表</a>
 </p>
