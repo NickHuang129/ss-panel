@@ -21,11 +21,17 @@ include_once 'header.php';
 	       <li> ***58@163.com **鸣 5元 送每月5G额外流量 </li>
 	       <li> ***heng@gmail.com **恒 3元 送每月3G额外流量 </li>
 	       <li> ***458@qq.com **平 10元 送每月12G额外流量 </li>
+	       <li> gle***an@139.com **梁 1元 送每月1G额外流量 </li>
 	       <li> 1860****258 **楠 1.26元 送每月1.5G额外流量 </li>
 	       <li> wos**kk@Gmail.com **凯 15元 送每月15G额外流量 </li>
 	       <li> 1501****799 **校 50元 送每月60G额外流量 </li>
 	       <li> samsung**@gmail.com **华 1元 送每月1G额外流量 </li>
-	       <li> nyv***ii@gmail.com ** 5元 送每月6G额外流量 </li>
+	       <li> 42*****49@qq.com **艾 1元 送每月1G额外流量 </li>
+	       <li> LONEW**F 2元 微信支付 送每月2G额外流量 </li>
+	       <li> wkx***23@qq.com **华 1元 送每月1G额外流量 </li>
+	       <li> 微信支付 刘*婷 5元 请入群说明，还没找到用户名 </li>
+	       <li> nyv***ii@gmail.com **民 5元 送每月6G额外流量 </li>
+	       <li> wosh*****ehua@sohu.com *跃华 10元 送每月10G额外流量 </li>
 	    </ul>
 	    <p>
 	       感谢以上用户对本站的支持。
