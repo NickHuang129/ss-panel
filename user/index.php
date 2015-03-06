@@ -64,7 +64,7 @@ $unix_time = $oo->get_last_unix_time();
                             <h3 class="box-title">公告&FAQ</h3>
                         </div><!-- /.box-header -->
                         <div class="box-body">
-                            
+                            <?php include 'announcement.php';?>
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (right) -->
@@ -86,7 +86,17 @@ $unix_time = $oo->get_last_unix_time();
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (left) -->
-
+                <div class="col-md-6">
+                    <div class="box box-solid">
+                        <div class="box-header">
+                            <h3 class="box-title"><strong>捐助计划</strong>
+                            <i class="fa fa-heart" style="margin-left: 8px;color: #FE0000;"></i></h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                        <?php include 'donate.php';?>
+                        </div>
+                     </div>
+                </div>
               <div class="col-md-6">
                     <div class="box box-solid">
                         <div class="box-header">
