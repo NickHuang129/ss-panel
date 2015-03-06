@@ -44,20 +44,6 @@ $unix_time = $oo->get_last_unix_time();
     <section class="content">
             <!-- START PROGRESS BARS -->
             <div class="row">
-                <?php if ($oo->data_array['enable']==0):?>
-                <div class="col-md-6">
-                    <div class="box box-solid">
-                        <div class="box-header">
-                            <h3 class="box-title">提示信息</h3>
-                        </div><!-- /.box-header -->
-                        <div class="box-body">
-                            <h4 style="text-align: center;color: red;font-size: 45px;"><i class="fa fa-frown-o"></i> </h4>
-                            <p style="color: red"> 对不起，由于某种原因，你的账户暂时被禁用！请联系管理员。 </p>
-                        </div><!-- /.box-body -->
-                    </div><!-- /.box -->
-                </div><!-- /.col (right) -->
-                <?php endif;?>
-            
                 <div class="col-md-6">
                     <div class="box box-solid">
                         <div class="box-header">
@@ -128,6 +114,21 @@ $unix_time = $oo->get_last_unix_time();
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (right) -->
+                
+                <?php if ($oo->data_array['enable']==0):?>
+                <div class="col-md-6">
+                    <div class="box box-solid">
+                        <div class="box-header">
+                            <h3 class="box-title">提示信息</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <h4 style="text-align: center;color: red;font-size: 45px;"><i class="fa fa-frown-o"></i> </h4>
+                            <p style="color: red"> 对不起，由于某种原因，你的账户暂时被禁用！请联系管理员。 </p>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div><!-- /.col (right) -->
+                <?php endif;?>
+                
             </div><!-- /.row -->
             <!-- END PROGRESS BARS -->
     </section><!-- /.content -->
