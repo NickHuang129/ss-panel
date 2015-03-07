@@ -11,7 +11,8 @@ include_once 'header.php';
 	    <h4>
 	    <strong>捐助计划</strong> <i class="fa fa-heart" style="margin-left: 8px;color: #FE0000;"></i>
 	    </h4>
-	    <?php include 'user/donate.php';?>
+	    <h5>暂时关闭</h5>
+	    <?php //include 'user/donate.php';?>
 	    <hr>
 	    <h4 id="donate-list-title">
 	    <strong>捐助列表</strong>
