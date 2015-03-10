@@ -44,6 +44,18 @@ $unix_time = $oo->get_last_unix_time();
     <section class="content">
             <!-- START PROGRESS BARS -->
             <div class="row">
+             <div class="col-md-6">
+                    <div class="box box-solid">
+                        <div class="box-header">
+                            <h3 class="box-title"><strong>捐助计划</strong>
+                            <i class="fa fa-heart" style="margin-left: 8px;color: #FE0000;"></i></h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                        <?php include 'donate.php';?>
+                        </div>
+                     </div>
+                </div>
+                
                 <div class="col-md-6">
                     <div class="box box-solid">
                         <div class="box-header">
@@ -72,17 +84,6 @@ $unix_time = $oo->get_last_unix_time();
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (left) -->
-                <div class="col-md-6">
-                    <div class="box box-solid">
-                        <div class="box-header">
-                            <h3 class="box-title"><strong>捐助计划</strong>
-                            <i class="fa fa-heart" style="margin-left: 8px;color: #FE0000;"></i></h3>
-                        </div><!-- /.box-header -->
-                        <div class="box-body">
-                        <?php include 'donate.php';?>
-                        </div>
-                     </div>
-                </div>
               <div class="col-md-6">
                     <div class="box box-solid">
                         <div class="box-header">
