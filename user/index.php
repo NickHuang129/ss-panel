@@ -79,8 +79,7 @@ $unix_time = $oo->get_last_unix_time();
                             <i class="fa fa-heart" style="margin-left: 8px;color: #FE0000;"></i></h3>
                         </div><!-- /.box-header -->
                         <div class="box-body">
-                        暂时关闭
-                        <?php //include 'donate.php';?>
+                        <?php include 'donate.php';?>
                         </div>
                      </div>
                 </div>
