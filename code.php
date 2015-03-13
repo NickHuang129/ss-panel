@@ -17,7 +17,8 @@ $c = new Ss\User\InviteCode();
         <p>如遇到无邀请码请找已经注册的用户获取。</p>
     </div>
     <p>
-    
+    暂停发放
+    <!--
             你还可以通过以下方式获取邀请码：<br>
        <ol class="donate-ol">
           <li>
@@ -26,7 +27,7 @@ $c = new Ss\User\InviteCode();
        <li>
         捐助1元，立刻获得 <a href="donate_list.php">点我查看</a>
        </li>
-       </ol>     
+       </ol>   -->  
     </p>
     
     <div class="row marketing">

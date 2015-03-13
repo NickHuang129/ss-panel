@@ -8,7 +8,7 @@
     <li>如果你在使用过程中遇到各种问题，欢迎加入交流群（419827451） <a style="position: relative" target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=cc60f63d2988aa23d09b0a0da9b44d7afe8d6807696be615e1f201ae66ab4dc6"><span style="position: absolute;display:inline-block;height:22px;width:90px;background-image:url(http://pub.idqqimg.com/wpa/images/group.png)"></span></a></li>
     <li>注册用户可以<a href="invite.php">生成邀请码</a>，也可以在<a href="code.php">公共邀请</a>里面查看定期发放的公共邀请码</li>
     <li>合理利用，禁止注册多个用户，月底将清理滥用账户</li>
-    <!--<li>用户接近饱和，暂停捐助计划，暂定公共邀请码发放，系统将会在一段时间内升级。</li>-->
+    <li>用户接近饱和，暂停捐助计划，暂定公共邀请码发放，系统将会在一段时间内升级。</li>
     <li style="color: #EE201A;">节点更换，新增两个美国节点，部分节点被移除，部分节点人数较多导致流量告急，请合理切换节点</li>
 </ul>
 
